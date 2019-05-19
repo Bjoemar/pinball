@@ -309,9 +309,9 @@ setInterval(function(){
             }
 
             if (resultList.rH6 == 0) {
-                var numberRes = 1;
+                var numberRes = 11;
             } else if (resultList.rH6 == 1) {
-                var numberRes = 2;
+                var numberRes = 12;
             }
 
         }
