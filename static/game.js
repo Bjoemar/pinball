@@ -3,6 +3,7 @@ var socket = io();
 
 
 $(document).ready(function(){
+    setTimeout(function(){
         var screenlength = $(window).width();
         var ua = navigator.userAgent.toLowerCase(); 
         if (ua.indexOf('safari') != -1) { 
@@ -23,6 +24,7 @@ $(document).ready(function(){
           }
         }
 
+    },2000);
 });
 
 
