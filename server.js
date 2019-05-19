@@ -62,7 +62,6 @@ server.listen(server_port , server_ip_address , function(){
 })
 
 
-
 var resultList = [];
 
 // L1 = -20 cheked

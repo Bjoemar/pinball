@@ -115,27 +115,27 @@ $('#black-command').click(function(){
 
 	if (resultList.ballPos == 0) { 
 
-		resultList.r2Pos = 1;
+		resultList.r2Pos = 0;
 
 	} else if(resultList.ballPos == 1) {
 
-		resultList.r2Pos = 0;
+		resultList.r2Pos = 1;
 
 	} else if (resultList.ballPos == 2) {
 
-		resultList.r2Pos = 1;
+		resultList.r2Pos = 0;
 
 	} else if (resultList.ballPos == 3) {
 
-		resultList.r2Pos = 0;
+		resultList.r2Pos = 1;
 
 	} else if (resultList.ballPos == 4) {
 
-		resultList.r2Pos = 1;
+		resultList.r2Pos = 0;
 
 	} else if (resultList.ballPos == 5) {
 		
-		resultList.r2Pos = 0;
+		resultList.r2Pos = 1;
 
 	}
 
@@ -148,27 +148,27 @@ $('#yellow-command').click(function(){
 
 	if (resultList.ballPos == 0) {
 
-		resultList.r2Pos = 0;
+		resultList.r2Pos = 1;
 
 	} else if(resultList.ballPos == 1) {
 
-		resultList.r2Pos = 1;
+		resultList.r2Pos = 0;
 
 	} else if (resultList.ballPos == 2) {
 
-		resultList.r2Pos = 0;
+		resultList.r2Pos = 1;
 
 	} else if (resultList.ballPos == 3) {
 
-		resultList.r2Pos = 1;
+		resultList.r2Pos = 0;
 
 	} else if (resultList.ballPos == 4) {
 
-		resultList.r2Pos = 0;
+		resultList.r2Pos = 1;
 
 	} else if (resultList.ballPos == 5) {
 		
-		resultList.r2Pos = 1;
+		resultList.r2Pos = 0;
 
 	}
 
