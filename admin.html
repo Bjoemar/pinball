@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PINBALL ADMIN</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/admin.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+
+	<div class="gameAdmin">
+		<div class="roullete3 rSpinner">
+			<button id="red-command" class="btn btn-danger">빨</button>
+			<button id="green-command" class="btn btn-success">초</button>
+			<button id="blue-command" class="btn btn-primary">파</button>
+		</div>
+
+		<div class="roullete2 rSpinner">
+			<button id="black-command" class="btn btn-dark">검</button>
+			<button id="yellow-command" class="btn btn-warning">노</button>
+		</div>
+
+		<div class="roullete1 rSpinner">
+			<button id="odd-command" class="btn btn-danger">홀</button>
+			<button id="even-command" class="btn btn-primary">짝</button>
+		</div>
+
+		<div class="status">
+			<button id="sendData" class="btn btn-outline-light success-status">SUCCESS</button>
+			<button id="cancelData" class="btn btn-outline-light success-cancel">DELETE</button>
+		</div>
+
+		<div class="dataResult">
+			<div class="r3Container res-cont">
+				
+			</div>
+
+			<div class="r2Container res-cont">
+				
+			</div>
+
+			<div class="r1Container res-cont">
+				
+			</div>
+		</div>
+
+
+	</div>
+</body>
+<script type="text/javascript" src="static/admin.js"></script>
+</html>

@@ -1,0 +1,273 @@
+.clear {
+	clear: both;
+	content: "";
+	display: block;
+}
+.gameHolder {
+	max-width: 830px;
+	min-width: 830px;
+	margin:auto;
+}
+
+#gamecanvas {
+	/*background: red;*/
+	width: 100%;
+}
+
+body {
+	background: #171a1c!important;
+}
+
+.gameTimer {
+	height: 50px;
+	width: 150px;
+	background: transparent;
+	border: 2px solid red;
+	position: absolute;
+	left: 120px;
+	top: 70px;
+	border-radius: 10px;
+	color: skyblue;
+	padding: 2px;
+	font-size: 25px;
+	font-weight: 900;
+	text-align: center;
+}
+
+
+.pinballGame {
+	width: 100%;
+	background: indigo;
+	padding: 20px
+}
+
+
+.gameAnimation {
+	width: 50%;
+	height: 700px;
+	/*border :1px solid red;*/
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+
+.game-res-roullete {
+	position: absolute;
+	bottom:50px;
+	left: 11px;
+	width: 84.5%;
+	overflow: hidden;
+	opacity: 0.8;
+}
+
+#pinball-img {
+	height: 70%;
+	width: 100%;
+}
+
+.color3-roullete {
+	overflow: hidden;
+	background-color: black;
+}
+
+
+.color2-roullete {
+	overflow: hidden;
+	background-color: black;
+}
+
+.horizontal-spin {
+	width: 210000px;
+}
+
+
+.horizontal-spin ul { 
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.horizontal-spin li {
+	display: inline-block;
+	height: 50px;
+	width: 58px;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	font-size: 25px;
+	font-weight: 900;
+	margin: -3px
+}
+
+
+.spin-red {
+	background-color: darkred;
+}
+
+.spin-green {
+	background-color: green;
+}
+
+.spin-blue {
+	background-color: blue;
+}
+
+.spin-yellow {
+	background-color: yellow;
+	color: black!important;
+}
+
+.spin-black {
+	background-color: #222;
+}
+
+.numberType-roullete {
+	overflow: hidden;
+	background-color: black;
+	height: 50px;
+}
+
+.vertical-spin {
+	width: 500px;
+}
+
+.inner-vertical-spin {
+	height: 210000px;
+}
+
+.numbox {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	overflow: hidden;
+}
+
+.numbox ul {
+	padding-left: 0;
+}
+
+.numbox li {
+	list-style-type: none;
+	padding-left: 0;
+	text-align: center;
+	height: 50px;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: 900;
+	color: white;
+	/*border-left: 2px solid white;*/
+
+}
+
+.sidePinResult {
+	height: 735px;
+	width: 370px;
+	float: right;
+	padding: 10px;
+	background: #171a1c;
+	border-radius: 10px;
+}
+
+.gameLineTimer {
+	height: 730px;
+	background: black;
+	width: 20px;
+	float: left;
+	margin-left: 2.5px;
+	border :1px solid #CCC;
+	transform: rotate(180deg);
+}
+
+.redLine {
+	height: 100%;
+	background: darkred;
+}
+
+.inner-side-result {
+	width: 100%;
+	background: black;
+	margin: auto;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.inner-result {
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	height: 85px;
+
+}
+
+.result-rounds {
+	height: 25px;
+	width: 80px;
+	background: #222;
+	position: absolute;
+	top: -10px;
+	left: 140px;
+	border : 1px solid #666;
+	border-radius: 5px;
+	color: white;
+	font-weight: 700;
+}
+
+.game-res-circle {
+	height: 40px;
+	width: 40px;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 20px;
+	margin-top: 15px;
+	margin-bottom: 0;
+	font-size: 25px;
+	color: white;
+	font-weight: 900;
+}
+
+.res-logo-holder {
+	text-align: center;
+}
+
+.res-logo-holder img {
+	width: 150px;
+}
+
+.BLUE {
+	background: blue;
+}
+
+.RED {
+	background: red;
+}
+
+.GREEN {
+	background: green;
+}
+
+.YELLOW {
+	background: #FFD700;
+	color: black;
+}
+
+.BLACK {
+	background: #444;
+	color: #ccc;
+}
+
+.NUMBER {
+	border :1px solid white;
+}
+
+
+.result-list {
+	overflow: scroll;
+	height: 600px;
+}
+
+
+.result-list::-webkit-scrollbar { 
+    display: none; 
+}
+

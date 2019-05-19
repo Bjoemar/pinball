@@ -1,0 +1,22 @@
+{
+  "name": "pinball",
+  "version": "0.0.1",
+  "description": "REALTIME PINBALL GAME",
+  "main": "server.js",
+  "scripts": {
+    "test": "run pinball",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "pinball"
+  ],
+  "author": "JOEMAR BACLEA-AN",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.16.4",
+    "matter-js": "^0.14.2",
+    "moment-timezone": "^0.5.25",
+    "mongodb": "^3.2.3",
+    "socket.io": "^2.2.0"
+  }
+}

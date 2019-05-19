@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pinball Game</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+	<script src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="static/decomp.min.js"></script>
+	<script src="static/matter.min.js"></script>
+</head>
+<body>
+	<div class="gameHolder">
+		<div class="pinballGame">
+	
+			<div class="gameAnimation">
+				<div class="gameTimer"></div>
+				<canvas id="gamecanvas"></canvas>
+				<div class="game-res-roullete" >
+					<div class="color3-roullete">
+						<div class="horizontal-spin">
+							<ul>
+								<li class="spin-red">빨</li>
+								<li class="spin-green">초</li>
+								<li class="spin-blue">파</li>
+								<li class="spin-red">빨</li>
+								<li class="spin-green">초</li>
+								<li class="spin-blue">파</li>
+								<li class="spin-red">빨</li>
+								<li class="spin-green">초</li>
+								<li class="spin-blue">파</li>
+							</ul>
+						</div>
+					</div>
+					<div class="color2-roullete">
+						<div class="horizontal-spin">
+							<ul>
+								<li class="spin-yellow">노</li>
+								<li class="spin-black">검</li>
+								<li class="spin-yellow">노</li>
+								<li class="spin-black">검</li>
+								<li class="spin-yellow">노</li>
+								<li class="spin-black">검</li>
+								<li class="spin-yellow">노</li>
+								<li class="spin-black">검</li>
+							</ul>
+						</div>
+					</div>
+					<div class="numberType-roullete">
+						<div class="vertical-spin">
+							<div class="firstBox numbox" style="width: 50.1px;">
+								<div class="inner-vertical-spin">
+									<ul>
+										<li style="border-left: none;">1</li>
+										<li style="border-left: none;">2</li>
+									</ul>
+								</div> <!-- end inner-vertical-spin -->
+							</div>
+							<div class="secondBox numbox" style="width: 50.662px;">
+								<div class="inner-vertical-spin">
+									<ul>
+										<li>3</li>
+										<li>4</li>
+									</ul>
+								</div> <!-- end inner-vertical-spin -->
+							</div>
+							<div class="thirdBox numbox"  style="width: 50.65px;"> 
+								<div class="inner-vertical-spin">
+									<ul>
+										<li>5</li>
+										<li>6</li>
+									</ul>
+								</div> <!-- end inner-vertical-spin -->
+							</div>
+							<div class="fourthBox numbox" style="width: 55.65px;">
+								<div class="inner-vertical-spin">
+									<ul>
+										<li>7</li>
+										<li>8</li>
+									</ul>
+								</div> <!-- end inner-vertical-spin -->
+							</div>
+							<div class="fifthBox numbox">
+								<div class="inner-vertical-spin">
+									<ul>
+										<li>9</li>
+										<li>10</li>
+									</ul>
+								</div> <!-- end inner-vertical-spin -->
+							</div>
+							<div class="sixBox numbox">
+								<div class="inner-vertical-spin">
+									<ul>
+										<li>11</li>
+										<li>12</li>
+									</ul>
+								</div> <!-- end inner-vertical-spin -->
+							</div>
+						</div> <!-- end vertical-spin -->
+					</div> <!-- end numberType-roullete -->
+				</div>
+
+			</div> <!-- end gameAnimation -->
+
+			<div class="gameLineTimer">
+				<div class="redLine"></div>
+			</div>
+
+			<div class="sidePinResult">
+				<div class="res-logo-holder">
+					<img src="assets/images/realbet-logo.png">
+				</div> <!-- end res-logo-holder -->
+				<div class="result-list">
+	
+				</div> <!-- end result-list -->
+			</div> <!-- end sidePinResult -->
+			<div class="clear"></div>
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript" src="static/game.js"></script>
+
+</html>
