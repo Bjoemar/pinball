@@ -356,14 +356,6 @@ function initGame() {
 
 	
 
-	// l1  =
-	//L2  =
-	// L3 =
-	// L4 =
-	//L5 =
-	//L6 =
-	$('.color2-roullete').scrollLeft(0);
-
 function runGame(r3Pos,r2Pos,rh1,rh2,rh3,rh4,rh5,rh6) {
 
 	$('.color3-roullete').scrollLeft(0);
