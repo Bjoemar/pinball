@@ -290,6 +290,22 @@ $('#cancelData').click(function(){
 
 })
 
+
+socket.on('sec',function(data){
+	if (data == 43) {
+
+		$('#sendData').css('background' , 'transparent');
+		$('#cancelData').css('background' , 'transparent');
+		$('.res-cont').html('');
+		$('.res-cont').css('background' , 'none');
+
+
+		resultList = [];
+		var ballPos = genPosition();
+		resultList.ballPos = ballPos;
+	}
+})
+
 setInterval(function(){
 	console.log(resultList)
 },1000);
