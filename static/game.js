@@ -395,50 +395,50 @@ function runGame(r3Pos,r2Pos,rh1,rh2,rh3,rh4,rh5,rh6) {
 	
 	$('.color3-roullete ').animate({
 		scrollLeft : r3Pos,
-	},10000);
+	},9000);
 
 
 	setTimeout(function(){
 		$('.color2-roullete').animate({
 			scrollLeft : r2Pos,
-		},7000);
-	},3000);
+		},6000);
+	},2000);
 
 
 	setTimeout(function(){
 
 		$('.firstBox').animate({
 			scrollTop : rh1,
-		},5000);
+		},4000);
 
 		$('.secondBox').scrollTop(18500);
 
 
 		$('.secondBox').animate({
 			scrollTop : rh2,
-		},5000);
+		},4000);
 
 		$('.thirdBox').animate({
 			scrollTop : rh3,
-		},5000);
+		},4000);
 
 		$('.fourthBox').scrollTop(18500);
 
 		$('.fourthBox').animate({
 			scrollTop : rh4,
-		},5000);
+		},4000);
 
 		$('.fifthBox').animate({
 			scrollTop : rh5,
-		},5000);
+		},4000);
 
 		$('.sixBox').scrollTop(18500);
 
 		$('.sixBox').animate({
 			scrollTop : rh6,
-		},5000);
+		},4000);
 
-	},5000);
+	},4000);
 };
 
 
@@ -464,7 +464,7 @@ socket.on('gameData',function(data){
 		setTimeout(function(){
 			Matter.World.remove(world,object)
 		},30000);
-	},12000);
+	},10000);
 
 });
 
