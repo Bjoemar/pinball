@@ -3,8 +3,6 @@ var socket = io();
 
 
 $(document).ready(function(){
-    console.log('IPHONE LAYOUT')
-    setTimeout(function(){
         var screenlength = $(window).width();
         var ua = navigator.userAgent.toLowerCase(); 
         if (ua.indexOf('safari') != -1) { 
@@ -25,7 +23,6 @@ $(document).ready(function(){
           }
         }
 
-    },3000);
 });
 
 
