@@ -464,7 +464,7 @@ socket.on('gameData',function(data){
 		setTimeout(function(){
 			Matter.World.remove(world,object)
 		},30000);
-	},10000);
+	},12000);
 
 });
 
