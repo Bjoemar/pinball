@@ -497,6 +497,30 @@ socket.on('gameResPass',function(data){
 		$('.result-list').prepend('<div class="inner-side-result"><div class="inner-result"><div class="result-rounds">'+(data.rounds + 1 )+'</div></div></div>');
 	},5000);
 
+
+
+	$(document).ready(function(){
+	    setTimeout(function(){
+	        var screenlength = $(window).width();
+	        var ua = navigator.userAgent.toLowerCase(); 
+	        if (ua.indexOf('safari') != -1) { 
+	          if (ua.indexOf('chrome') > -1) {
+	          } else {
+
+
+	            if (screenlength <= 600) {
+	            	$('.result-rounds').css('font-size' , '8px');
+	            	$('.game-res-circle').css('font-size' , '15px');
+	            } else if (screenlength <= 768) {
+
+	            }
+	          }
+	        }
+
+	    },2000);
+	});
+
+
 });
 
 
