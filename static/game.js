@@ -395,50 +395,50 @@ function runGame(r3Pos,r2Pos,rh1,rh2,rh3,rh4,rh5,rh6) {
 	
 	$('.color3-roullete ').animate({
 		scrollLeft : r3Pos,
-	},9000);
+	},10000);
 
 
 	setTimeout(function(){
 		$('.color2-roullete').animate({
 			scrollLeft : r2Pos,
-		},6000);
-	},2000);
+		},7000);
+	},3000);
 
 
 	setTimeout(function(){
 
 		$('.firstBox').animate({
 			scrollTop : rh1,
-		},4000);
+		},5000);
 
 		$('.secondBox').scrollTop(18500);
 
 
 		$('.secondBox').animate({
 			scrollTop : rh2,
-		},4000);
+		},5000);
 
 		$('.thirdBox').animate({
 			scrollTop : rh3,
-		},4000);
+		},5000);
 
 		$('.fourthBox').scrollTop(18500);
 
 		$('.fourthBox').animate({
 			scrollTop : rh4,
-		},4000);
+		},5000);
 
 		$('.fifthBox').animate({
 			scrollTop : rh5,
-		},4000);
+		},5000);
 
 		$('.sixBox').scrollTop(18500);
 
 		$('.sixBox').animate({
 			scrollTop : rh6,
-		},4000);
+		},5000);
 
-	},4000);
+	},5000);
 };
 
 
