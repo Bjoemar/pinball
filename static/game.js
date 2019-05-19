@@ -1,6 +1,35 @@
 var socket = io();
 
 
+
+$(document).ready(function(){
+    console.log('IPHONE LAYOUT')
+    setTimeout(function(){
+        var screenlength = $(window).width();
+        var ua = navigator.userAgent.toLowerCase(); 
+        if (ua.indexOf('safari') != -1) { 
+          if (ua.indexOf('chrome') > -1) {
+          } else {
+
+
+            if (screenlength <= 600) {
+            	$('.result-rounds').css('font-size' , '8px');
+            	$('.game-res-circle').css('font-size' , '15px');
+            	$('.gameTimer').css('font-size' , '15px');
+            	$('.horizontal-spin li').css('font-size' , '15px');
+
+            	$('.numbox li').css('font-size' , '10px');
+            } else if (screenlength <= 768) {
+
+            }
+          }
+        }
+
+    },3000);
+});
+
+
+
 var today = new Date();
 var M = today.getMonth() + 1;
 var D = today.getDate();
