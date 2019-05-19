@@ -14,7 +14,7 @@ moment.tz('Asia/Tokyo');
 var mongo = require('mongodb');
 var MongoClient = require('mongodb').MongoClient;
 
-var url = "mongodb://localhost:27017/pinball";
+// var url = "mongodb://localhost:27017/pinball";
 
 var url = "mongodb://joemar12:joemar12@ds159156-a0.mlab.com:59156,ds159156-a1.mlab.com:59156/pinball?replicaSet=rs-ds159156";
 

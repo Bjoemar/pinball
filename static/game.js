@@ -50,7 +50,7 @@ var PATHS2 = {
 };
 
 
-let vertices = Matter.Vertices.fromPath(PATHS2.DOME);
+var vertices = Matter.Vertices.fromPath(PATHS2.DOME);
 
 var dome = Matter.Bodies.fromVertices(200,90,vertices,{
 	isStatic : true,

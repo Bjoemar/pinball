@@ -271,3 +271,16 @@ body {
     display: none; 
 }
 
+
+@media only screen and (max-width: 600px) {
+	.gameHolder {
+		zoom : 0.5;
+	}
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+	.gameHolder {
+		zoom : 0.7;
+	}
+}
